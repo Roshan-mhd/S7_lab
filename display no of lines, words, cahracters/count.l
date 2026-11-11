@@ -30,8 +30,9 @@ int yywrap()
 
 /* 
 runing command:
+file name is count so 
 
-lex file name.l
+lex count.l
 gcc lex.yy.c -o count -ll
 ./count
 */
