@@ -27,3 +27,11 @@ int yywrap()
 {
     return 1;
 }
+
+/* 
+runing command:
+
+lex file name.l
+gcc lex.yy.c -o count -ll
+./count
+*/
